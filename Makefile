@@ -6,7 +6,7 @@ CFLAGS = -Wall -g
 TARGET = scanner
 
 # Source files
-SOURCES = scanner.c Utils/scan.c Utils/data.c
+SOURCES = scanner.c Utils/scan.c Utils/data.c Utils/expr.c tree.c interp.c
 HEADERS = Utils/defs.h Utils/data.h
 OBJECTS = $(SOURCES:.c=.o)
 
